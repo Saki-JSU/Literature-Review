@@ -24,7 +24,7 @@
   - Auoformer: **Autoformer: Decomposition transformers with auto-correlation for long-term series forecasting**, NIPS, 2021
     - encode timestamps
     - devise a simple seasonal trend decomposition architecture with an auto-correlation mechanism working as an attention module. 
-    - measure the time-delay similarity between inputs signal and aggregate the top-k similar sub-series to produce
+    - measure the time-delay similarity between inputs signal and aggregate the top-k similar sub-series to produce the output with a reduced complexity of O(Llog L).
 - Applications: 
   - NLP: **Bert: Pre-training of deep bidirectional transformers for language understanding**, arXiv, 2018
   - CV: **An image is worth 16x16 words: Transformers for image recognition at scale**, arXiv, 2020. 
